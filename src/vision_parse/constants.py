@@ -6,6 +6,7 @@ SUPPORTED_MODELS: Dict[str, str] = {
     "llava:13b": "ollama",
     "llava:34b": "ollama",
     "deepseek-r1:32b": "ollama",
+    "granite3.2-vision:2b": "ollama",
     "gpt-4o": "openai",
     "gpt-4o-mini": "openai",
     "gemini-1.5-flash": "gemini",
