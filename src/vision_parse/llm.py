@@ -79,8 +79,8 @@ class LLM:
         self.detailed_extraction = detailed_extraction
         self.kwargs = kwargs
         self.enable_concurrency = enable_concurrency
-        self.device = device
-        self.num_workers = num_workers
+        self.device = "cuda" #device
+        self.num_workers = 1 #num_workers
 
         self.provider = self._get_provider_name(model_name)
         self._init_llm()
