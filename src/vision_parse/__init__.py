@@ -8,7 +8,7 @@ try:
     __version__ = version("vision-parse")
 except PackageNotFoundError:
     # Use a development version when package is not installed
-    __version__ = "0.0.0.dev0"
+    __version__ = "1.0.0"
 
 __all__ = [
     "VisionParser",
