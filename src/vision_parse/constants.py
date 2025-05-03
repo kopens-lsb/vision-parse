@@ -3,6 +3,7 @@ from typing import Dict
 SUPPORTED_MODELS: Dict[str, str] = {
     "llama3.2-vision:11b": "ollama",
     "gemma3:12b": "ollama",
+    "qwen3:32b": "ollama",
     "granite3.2-vision:2b": "ollama",
     "minicpm-v:8b": "ollama",
     "gpt-4o": "openai",
