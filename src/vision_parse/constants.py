@@ -1,6 +1,7 @@
 from typing import Dict
 
 SUPPORTED_MODELS: Dict[str, str] = {
+    "llama4:scout": "ollama",
     "llama3.2-vision:11b": "ollama",
     "gemma3:12b": "ollama",
     "qwen3:32b": "ollama",
